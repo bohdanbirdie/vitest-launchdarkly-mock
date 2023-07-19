@@ -1,25 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client", "node"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "incremental": false,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "preserve",
-    "baseUrl": "./",
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "target": "ESNext",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "declaration": true
   },
-  "include": ["./src"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"],
+  "include": ["src"]
 }
