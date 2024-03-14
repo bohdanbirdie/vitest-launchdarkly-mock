@@ -1,6 +1,6 @@
 {
   "name": "vitest-launchdarkly-mock",
-  "version": "1.0.0",
+  "version": "1.0.1-types.2",
   "description": "Easily unit test LaunchDarkly feature flagged components with Vitest",
   "keywords": [
     "vitest",
@@ -11,12 +11,16 @@
   "author": "bohdanbirdie",
   "exports": {
     ".": {
-      "import": "./dist/index.js"
-    }
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./*": "./*"
   },
+  "main": "./dist/index.js",
   "module": "./dist/index.js",
   "files": [
-    "dist/index.js"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "build": "rimraf dist && tsc"
