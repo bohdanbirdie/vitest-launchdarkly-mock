@@ -18,7 +18,8 @@
   },
   "module": "./dist/index.js",
   "files": [
-    "dist/index.js"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "build": "rimraf dist && tsc"
