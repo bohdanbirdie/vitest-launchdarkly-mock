@@ -1,6 +1,6 @@
 {
   "name": "vitest-launchdarkly-mock",
-  "version": "1.0.1-types.2",
+  "version": "1.1.0",
   "description": "Easily unit test LaunchDarkly feature flagged components with Vitest",
   "keywords": [
     "vitest",
@@ -29,23 +29,23 @@
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
     "lodash.snakecase": "^4.1.1",
-    "react-dom": "^18.2.0"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/lodash.camelcase": "^4.3.7",
     "@types/lodash.kebabcase": "^4.1.7",
     "@types/lodash.snakecase": "^4.1.7",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "prettier": "^2.6.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "react": "^17.0.2",
     "rimraf": "^3.0.2",
-    "semantic-release": "19.0.3",
     "typescript": "^4.7.2",
-    "vitest": "^0.33.0"
+    "vitest": "^3.0.0"
   },
   "peerDependencies": {
     "launchdarkly-react-client-sdk": "^3.0.0",
     "react": ">=17.0.2",
+    "react-dom": ">=17.0.2",
     "vitest": ">=0.20.0"
   }
 }
