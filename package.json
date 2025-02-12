@@ -1,6 +1,6 @@
 {
   "name": "vitest-launchdarkly-mock",
-  "version": "1.0.1-types.2",
+  "version": "1.1.0",
   "description": "Easily unit test LaunchDarkly feature flagged components with Vitest",
   "keywords": [
     "vitest",
