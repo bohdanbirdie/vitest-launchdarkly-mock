@@ -9,6 +9,11 @@
   ],
   "license": "MIT",
   "author": "bohdanbirdie",
+  "homepage": "https://www.npmjs.com/package/vitest-launchdarkly-mock",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bohdanbirdie/vitest-launchdarkly-mock.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.js",
